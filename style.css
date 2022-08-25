@@ -1,0 +1,96 @@
+/* * {
+    padding: 10;
+    margin: 10;
+    background-color: azure;
+} */
+
+/* Grid is 20 x 20 hence 400 squares */
+.grid {
+    width: 500px;
+    height:500px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    margin: auto;
+}
+
+.grid div {
+    width: 25px;
+    height: 25px;
+}
+
+.start {
+    position: relative;
+    height: 50px;
+    width: 200px;
+    font-size: x-large;
+}
+
+.score {
+
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.gameOver {
+    font-size:xx-large;
+    font-weight: bold;
+    text-align: center;
+    /* visibility: hidden; */
+}
+
+/* Toggle Light/Dark mode */
+
+#darkModeSwitch{
+    position: block;
+    left: 15px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+  }
+  .darkMode{
+    background-color: darkgrey;
+    font-weight: bolder;
+}
+  .lightMode{
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+}
+
+mark.green {
+    color: green;
+    font-weight: bolder;
+}
+
+mark.red {
+    color:red;
+    font-weight: bolder;
+}
+
+.highscore {
+    font-size:xx-large;
+    font-weight: bold;
+    text-align: center;
+    /* visibility: hidden; */
+}
+
+.ul {
+    visibility: hidden;
+}
+
+.snake {
+    background-color: green;
+}
+
+.apple {
+    background-color: red;
+}
